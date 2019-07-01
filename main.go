@@ -13,7 +13,7 @@ type User struct {
 
 func main() {
 	var mp map[string]interface{}
-	u := User{
+	u := &User{
 		ID:   1,
 		Name: "yukpiz",
 	}
